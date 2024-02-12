@@ -71,28 +71,28 @@
           Blender, un outil que nous utilisons dans le cadre de nos études.
         </p>
         <h4>Technologies selectionnées</h4>
-        <ul>
+        <ul class="list-row">
           <li>
             <img src="/vuejs.png" alt="logo vuejs">
             <img src="/reactjs.png" alt="logo reactjs">
             <br>
-            <span>Front-end :</span> VueJs ou ReactJs
+            <span class="bold">Front-end :</span> VueJs ou ReactJs
           </li>
           <li>
             <img src="/node.png" alt="logo nodeJs">
             <img src="/express.png" alt="logo expressJs">
             <br>
-            <span>Back-end :</span> Node.js + Express.js, MySql
+            <span class="bold">Back-end :</span> Node.js + Express.js, MySql
           </li>
           <li>
             <img src="/threejs.png" alt="logo threejs">
             <br>
-            <span>Viewer3D :</span> Three.js
+            <span class="bold">Viewer3D :</span> Three.js
           </li>
           <li>
             <img src="/blender.png" alt="logo blender">
             <br>
-            <span>Modélisation 3D :</span> Blender
+            <span class="bold">Modélisation 3D :</span> Blender
           </li>
         </ul>
       </article>
@@ -100,20 +100,34 @@
     <section>
       <h3>Lancement du projet</h3>
       <div class="bloc">
-        <article class="middle">
+        <article>
         <p>
           La première étape a été de définir précisemment les fonctionnalités à développer. Dans un document Notion
           partagé, nous avons consigné celles qui nous paraissaient évidentes. Nous avons également pris le temps de
           réfléchir au contenu qui allait nous être nécessaire pour enrichir et habiller le viewer 3D.
         </p>
-
+          <h4>Fonctionnalités</h4>
+          <ul>
+            <li>changer de modèle (un modèle par matériau)</li>
+            <li>faire tourner l'objet sur lui-même dans toutes les directions + léger zoom/dé-zoom</li>
+            <li>vue détaillée d’un élément (vue éclatée zoom & hover)</li>
+            <li>back-office - CR<span class="barre">U</span>D modèles 3D</li>
+          </ul>
+          <h4>Contenus</h4>
+          <ul>
+            <li>quelques modèles 3D</li>
+            <li>matériaux utilisés</li>
+            <li>données sur les processus de fabrication</li>
+            <li>données sur l'origine des matériaux</li>
+            <li>images pour illustrer les descriptions</li>
+          </ul>
       </article>
-      <figure>
-        <img src="/notion1.png" alt="aperçu du document de travail partagé">
-        <figcaption>
-          Aperçu du document de travail partagé.
-        </figcaption>
-      </figure>
+<!--      <figure>-->
+<!--        <img src="/notion1.png" alt="aperçu du document de travail partagé">-->
+<!--        <figcaption>-->
+<!--          Aperçu du document de travail partagé.-->
+<!--        </figcaption>-->
+<!--      </figure>-->
       </div>
       <article>
         hello
@@ -150,7 +164,7 @@ figure {
   }
 }
 
-ul {
+.list-row {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -167,11 +181,11 @@ ul {
       width: 25px;
       margin: 0 5px;
     }
-
-    span {
-      font-weight: bold;
-    }
   }
+}
+
+.barre {
+  text-decoration: line-through;
 }
 
 .bold {

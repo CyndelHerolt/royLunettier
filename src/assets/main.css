@@ -16,14 +16,19 @@
 
 @media (min-width: 1024px) {
   main {
-    padding: 75px;
+    padding: 150px 75px;
   }
 
   header {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     background-color: var(--vt-c-text-dark-1);
-    padding: 25px 0;
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
   }
   nav {
     display: flex;
@@ -41,7 +46,8 @@
   }
 
   .logo {
-    width: 75px;
+    width: 40px;
+    margin-bottom: 10px;
   }
 
   h1 {
