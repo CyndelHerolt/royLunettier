@@ -68,6 +68,10 @@
     margin-bottom: 15px;
   }
 
+  article {
+    margin-bottom: 50px;
+  }
+
   .home_head {
     margin: 75px 0;
     display: flex;
