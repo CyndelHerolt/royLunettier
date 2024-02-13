@@ -62,10 +62,10 @@
           Pour autant, il ne s'agit pas seulement de se reposer sur les compétences de Shams car nous devons tous les
           trois apporter une contribution équivalente au projet. Sam et Cyndel sont spécialisés dans le développement
           back et prendront le temps de découvrir et d'apprendre à maîtriser le développement d'un back-office via
-          Node.js et Express.js dans un environnement plutôt orienté front-end. Notre apprentissage du framework front
-          VueJs sera également un atout pour la réalisation du site qui abritera le viewer3D. Une indécision subsiste
-          quand même entre VueJs et ReactJs car d'un côté il semblerait que React soit plus adapté à l'intégration de
-          composant Three mais de l'autre nous sommes beaucoup plus à l'aise en Vue qu'en React.
+          Node.js et Express.js dans un environnement plutôt orienté front-end. Notre introduction à React.js dans le cadre des cours de notre formation nous permettra également de réaliser le site qui abritera le viewer3D. Surtout que React.js permet une utilisation plus simple de Three.js. Grâce à R3F (React Three Fiber) le développement d'interface Three.js dans un environnement en React.js se voit étonnemment simplifié.
+
+          Notre apprentissage du framework front
+          ReactJs sera également un atout pour la réalisation du site qui abritera le viewer3D.
           <br>
           Pour la création des modèles 3D de lunettes, c'est sans grande hésitation que nous avons décidé d'utiliser
           Blender, un outil que nous utilisons dans le cadre de nos études.
@@ -76,7 +76,7 @@
             <img src="/vuejs.png" alt="logo vuejs">
             <img src="/reactjs.png" alt="logo reactjs">
             <br>
-            <span class="bold">Front-end :</span> VueJs ou ReactJs
+            <span class="bold">Front-end :</span> ReactJs
           </li>
           <li>
             <img src="/node.png" alt="logo nodeJs">
@@ -101,11 +101,11 @@
       <h3>Lancement du projet</h3>
       <div class="bloc">
         <article>
-        <p>
-          La première étape a été de définir précisemment les fonctionnalités à développer. Dans un document Notion
-          partagé, nous avons consigné celles qui nous paraissaient évidentes. Nous avons également pris le temps de
-          réfléchir au contenu qui allait nous être nécessaire pour enrichir et habiller le viewer 3D.
-        </p>
+          <p>
+            La première étape a été de définir précisemment les fonctionnalités à développer. Dans un document Notion
+            partagé, nous avons consigné celles qui nous paraissaient évidentes. Nous avons également pris le temps de
+            réfléchir au contenu qui allait nous être nécessaire pour enrichir et habiller le viewer 3D.
+          </p>
           <h4>Fonctionnalités</h4>
           <ul>
             <li>changer de modèle (un modèle par matériau)</li>
@@ -121,21 +121,33 @@
             <li>données sur l'origine des matériaux</li>
             <li>images pour illustrer les descriptions</li>
           </ul>
-      </article>
-<!--      <figure>-->
-<!--        <img src="/notion1.png" alt="aperçu du document de travail partagé">-->
-<!--        <figcaption>-->
-<!--          Aperçu du document de travail partagé.-->
-<!--        </figcaption>-->
-<!--      </figure>-->
+        </article>
       </div>
-      <article>
-        hello
-      </article>
+      <div class="bloc">
+        <article class="middle">
+          <h3>Découverte et tests</h3>
+          <p>
+            Afin d'épauler Shams dans la réalisation du viewer3D, Sam et Cyndel ont commencé par se documenter sur
+            Three.js et des ébauches de projets ont été réalisées pour comprendre les bases de la librairie. Nous avons
+            également commencé à nous former sur la gestion d'un back-office avec Node.js et Express.js.
+          </p>
+          <a href="https://github.com/CyndelHerolt/Lego3DCanvas" target="_blank">
+            <button>Projet en Three.js</button>
+          </a>
+          <a href="https://github.com/CyndelHerolt/ObscureWave" target="_blank">
+            <button>Projet en Vue qui utilise Node.js et Express.js</button>
+          </a>
+          <br>
+        </article>
+        <figure>
+          <iframe src="/test1.mkv" width="530" height="300"></iframe>
+          <figcaption>
+            Premiers tests de rendu 3D avec Three.js
+          </figcaption>
+        </figure>
+      </div>
     </section>
   </main>
-  <!--        <p>Afin d'épauler Shams dans </p>-->
-  <!--        https://github.com/CyndelHerolt/Lego3DCanvas-->
 </template>
 
 <style scoped>

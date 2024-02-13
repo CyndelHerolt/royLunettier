@@ -79,6 +79,20 @@
     margin-bottom: 50px;
   }
 
+  button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--vt-c-indigo);
+    color: var(--vt-c-white);
+    cursor: pointer;
+    transition: background-color 0.5s;
+  }
+    button:hover {
+        background-color: var(--vt-c-black-soft);
+    }
+
   .home_head {
     margin: 75px 0;
     display: flex;
