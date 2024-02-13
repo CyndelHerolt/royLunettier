@@ -82,7 +82,7 @@
             <img src="/node.png" alt="logo nodeJs">
             <img src="/express.png" alt="logo expressJs">
             <br>
-            <span class="bold">Back-end :</span> Node.js + Express.js, MySql
+            <span class="bold">Back-end :</span> Node.js + Express.js
           </li>
           <li>
             <img src="/threejs.png" alt="logo threejs">
