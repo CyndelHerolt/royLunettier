@@ -127,20 +127,39 @@
         <article class="middle">
           <h3>Découverte et tests</h3>
           <p>
-            Afin d'épauler Shams dans la réalisation du viewer3D, Sam et Cyndel ont commencé par se documenter sur
-            Three.js et des ébauches de projets ont été réalisées pour comprendre les bases de la librairie. Nous avons
-            également commencé à nous former sur la gestion d'un back-office avec Node.js et Express.js.
+            Afin d'épauler Shams qui a déjà de bonnes bases en Three.js dans la réalisation du viewer3D, Sam et Cyndel ont commencé par se documenter sur Three.js et des ébauches de projets ont été réalisées pour comprendre les bases de la librairie. Nous avons également commencé à nous former sur la gestion d'un back-office avec Node.js et Express.js.
           </p>
+          <a href="https://github.com/SamChrp/three-js-test" target="_blank">
+            <button>Sam - Projet en Three.js</button>
+          </a>
+          <a href="https://github.com/SamChrp/express-js-tests" target="_blank">
+            <button>Sam - Projet test Express.js</button>
+          </a>
           <a href="https://github.com/CyndelHerolt/Lego3DCanvas" target="_blank">
-            <button>Projet en Three.js</button>
+            <button>Cyndel - Projet en Three.js</button>
           </a>
           <a href="https://github.com/CyndelHerolt/ObscureWave" target="_blank">
-            <button>Projet en Vue qui utilise Node.js et Express.js</button>
+            <button>Cyndel - Projet test Express.js</button>
+          </a>
+          <a href="https://github.com/Taiyousan/roy-lunetier-3d-viewer-r3f" target="_blank">
+            <button>Shams - Projet test Three.js</button>
+          </a>
+          <a href="https://github.com/Taiyousan/casse-briques" target="_blank">
+            <button>Shams - Projet test Three.js</button>
+          </a>
+          <a href="https://github.com/Taiyousan/shooter" target="_blank">
+            <button>Shams - Projet test Three.js</button>
+          </a>
+          <a href="https://github.com/Taiyousan/haunted-house" target="_blank">
+            <button>Shams - Projet test Three.js</button>
+          </a>
+          <a href="https://github.com/Taiyousan/switch-viewer" target="_blank">
+            <button>Shams - Projet test Three.js</button>
           </a>
           <br>
         </article>
         <figure>
-          <iframe src="/test1.mkv" width="530" height="300"></iframe>
+          <iframe src="/test1.mp4" width="530" height="300"></iframe>
           <figcaption>
             Premiers tests de rendu 3D avec Three.js
           </figcaption>
@@ -153,6 +172,7 @@
 <style scoped>
 .bloc {
   display: flex;
+  align-items: center;
 }
 
 .middle {
