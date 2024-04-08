@@ -7,16 +7,16 @@ import HomeView from "@/views/HomeView.vue";
   <header>
     <img class="logo" src="/logo_roy_lunetier_black.svg" alt="">
     <nav>
-      <RouterLink to="/">
+      <RouterLink to="/" active-class="active-link">
         Accueil
       </RouterLink>
-      <RouterLink to="/royLunetier">
+      <RouterLink to="/royLunetier" active-class="active-link">
         Roy Lunetier
       </RouterLink>
-      <RouterLink to="/demarche">
+      <RouterLink to="/demarche" active-class="active-link">
         Démarche
       </RouterLink>
-      <RouterLink to="/application">
+      <RouterLink to="/application" active-class="active-link">
         Application
       </RouterLink>
     </nav>
@@ -36,5 +36,13 @@ footer {
   background-color: var(--color-background);
   width: 100%;
   padding: 5px 10px;
+}
+
+a {
+  padding: 0 15px;
+}
+
+.active-link {
+  background-color: rgba(224, 212, 202, 0.25);
 }
 </style>
