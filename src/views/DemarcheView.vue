@@ -1,5 +1,15 @@
 <script setup>
-import {RouterLink} from "vue-router";
+import {RouterLink, useRoute, useRouter} from "vue-router";
+import {onMounted} from "vue";
+
+const router = useRouter();
+const route = useRoute();
+
+onMounted(() => {
+  if (route.path === '/demarche') {
+    router.push('/demarche/reflexions');
+  }
+});
 </script>
 
 <template>
