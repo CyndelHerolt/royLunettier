@@ -15,7 +15,7 @@
           Lien vers l'outil
         </a>
         <figure style="width: 70vw; margin: 50px">
-          <iframe src="/public/demo.mp4" width="100%" height="550px" frameborder="0"></iframe>
+          <iframe src="/demo.mp4" width="100%" height="550px" frameborder="0"></iframe>
         </figure>
       </article>
     </section>
